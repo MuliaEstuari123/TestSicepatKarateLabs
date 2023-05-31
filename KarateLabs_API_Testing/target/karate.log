@@ -1,0 +1,898 @@
+22:29:47.334 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+22:32:59.178 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+22:32:59.960 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685460779953
+22:35:53.350 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+22:35:54.011 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685460953999
+22:35:54.047 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+22:35:57.398 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+22:35:58.675 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1240
+1 < 201
+1 < Date: Tue, 30 May 2023 15:35:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 37
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685460969
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"25-wjiVwQrEbhLTLI6ZQNnWJLnYoUQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TOBGFv%2BPGQebXTX1Klm%2BXIaN2PHZV0aBqbfa9dI%2BqVDEP6DtMGcLmRljPyYO%2FHFqZSLc0B%2F2Q97zd1fas9%2BuvCMMWrzNZ5fieI4mUAslodmYzizlVVFgTCnw%2FrQgglgGRz9ztnTfNFSRhhIU6JQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cf80cc6397a4a02-SIN
+{
+  "myKey": "myValue",
+  "id": 101
+}
+
+22:35:59.822 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) httpbin.feature
+22:47:43.336 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+22:47:43.990 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685461663984
+22:47:46.599 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+22:47:47.657 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1039
+1 < 201
+1 < Date: Tue, 30 May 2023 15:47:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 37
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685461689
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"25-wjiVwQrEbhLTLI6ZQNnWJLnYoUQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Xo%2Fe8NduNXAu%2F2seDAxQADg8%2FDEVj5w4rfoQgcmIH0S3LS6CkMqiFR6o0v%2F%2FDCIX0rA0JV4Khm1b%2Fxkd%2BX3nkkQrxpVcqKSZjN%2FPYqR9mKcxsBFhKA79fY04shFpsyvCNl3lBHzEpsj31dBlb2Y%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cf81e155d5544c0-SIN
+{
+  "myKey": "myValue",
+  "id": 101
+}
+
+22:47:48.761 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) httpbin.feature
+22:48:21.654 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+22:48:22.281 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685461702275
+22:48:24.912 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+22:48:25.898 [main]  DEBUG com.intuit.karate - response time in milliseconds: 970
+1 < 201
+1 < Date: Tue, 30 May 2023 15:48:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 37
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685461749
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"25-wjiVwQrEbhLTLI6ZQNnWJLnYoUQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FnwONlKkSJC2x42QSD2yedjBFUwmxvMW1PVqAENz6lCWgUIxmsruWvx2MERxpVlLFGsbUNCmRNcsd32fi32K7BnKh%2FXDqragGY%2FeWWEJBNLd%2FnHB7tM5ZNKsDjk0dellOT8Loopvs7ExTi7QW%2Fw%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cf81f046b2f4dd4-SIN
+{
+  "myKey": "myValue",
+  "id": 101
+}
+
+22:48:27.084 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) httpbin.feature
+22:58:28.254 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+22:58:31.537 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://httpbin.org/anything
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: httpbin.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+22:59:02.084 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+22:59:02.759 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+22:59:05.310 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://httpbin.org/anything
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: httpbin.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+22:59:16.773 [main]  DEBUG com.intuit.karate - response time in milliseconds: 11448
+1 < 504
+1 < Server: awselb/2.0
+1 < Date: Tue, 30 May 2023 15:59:15 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 132
+1 < Connection: keep-alive
+<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+</body>
+</html>
+
+
+22:59:18.891 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+22:59:19.463 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685462359453
+22:59:22.107 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+22:59:23.161 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1047
+1 < 201
+1 < Date: Tue, 30 May 2023 15:59:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 37
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685462409
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"25-wjiVwQrEbhLTLI6ZQNnWJLnYoUQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BfOhJIIU%2FU42ZYxd0wRZ0v%2BKm29BS5tZw%2FznlI8Kaj1KiCR9ZmWiZFcD7RQTxMCZovKtuCRorpGub8FBmH%2FlcRziAnH%2BoVGKrKSlbnMrFz4ybnB2G4wHmIp6p1DqIxYZPxOYE%2B5ztM5JuIiy7RM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cf82f105b738956-SIN
+{
+  "myKey": "myValue",
+  "id": 101
+}
+
+22:59:24.241 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) httpbin.feature
+23:00:27.047 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+23:00:27.649 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685462427642
+23:00:30.151 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://httpbin.org/anything
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: httpbin.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+23:00:32.186 [main]  DEBUG com.intuit.karate - response time in milliseconds: 2015
+1 < 200
+1 < Date: Tue, 30 May 2023 16:00:31 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 522
+1 < Connection: keep-alive
+1 < Server: gunicorn/19.9.0
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+{
+  "args": {}, 
+  "data": "{\"myKey\":\"myValue\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "19", 
+    "Content-Type": "application/json; charset=UTF-8", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.6)", 
+    "X-Amzn-Trace-Id": "Root=1-64761d9e-10c26f1d508e66bf424c2139"
+  }, 
+  "json": {
+    "myKey": "myValue"
+  }, 
+  "method": "POST", 
+  "origin": "103.155.192.89", 
+  "url": "https://httpbin.org/anything"
+}
+
+
+23:00:33.305 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) test.feature
+23:07:51.937 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+23:07:52.659 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685462872651
+23:07:55.168 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://httpbin.org/anything
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: httpbin.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+23:07:59.519 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4339
+1 < 200
+1 < Date: Tue, 30 May 2023 16:07:58 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 522
+1 < Connection: keep-alive
+1 < Server: gunicorn/19.9.0
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+{
+  "args": {}, 
+  "data": "{\"myKey\":\"myValue\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "19", 
+    "Content-Type": "application/json; charset=UTF-8", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.6)", 
+    "X-Amzn-Trace-Id": "Root=1-64761f5b-536ad69c65fed52e795604d2"
+  }, 
+  "json": {
+    "myKey": "myValue"
+  }, 
+  "method": "POST", 
+  "origin": "103.155.192.89", 
+  "url": "https://httpbin.org/anything"
+}
+
+
+23:08:00.732 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) test.feature
+23:19:53.490 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+23:19:54.110 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685463594102
+23:19:56.579 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+23:19:57.709 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1112
+1 < 201
+1 < Date: Tue, 30 May 2023 16:19:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 37
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685463609
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"25-wjiVwQrEbhLTLI6ZQNnWJLnYoUQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OPaayds13nQ3jyk4C0xOcP33KPB0oX9qTMZpJavRRhjx9qtNyB4mUPRXcUs8%2FdDBv71u%2FD%2BZhZWGi5hus51Y19f%2Fc%2B8ajeZrCAYfzG1%2FF6Z5hq3h6AUkJapSsE68%2F0NmFrY8%2FaT4QqXj8btL4tU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cf84d3449a74104-SIN
+{
+  "myKey": "myValue",
+  "id": 101
+}
+
+23:19:57.773 [main]  ERROR com.intuit.karate - httpbin.feature:7
+* Status 200
+no step-definition method match found for: Status 200
+httpbin.feature:7
+23:19:58.870 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) httpbin.feature
+23:21:10.419 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+23:21:11.112 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685463671103
+23:21:13.600 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://httpbin.org/anything
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: httpbin.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+23:21:23.022 [main]  DEBUG com.intuit.karate - response time in milliseconds: 9409
+1 < 200
+1 < Date: Tue, 30 May 2023 16:21:21 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 522
+1 < Connection: keep-alive
+1 < Server: gunicorn/19.9.0
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+{
+  "args": {}, 
+  "data": "{\"myKey\":\"myValue\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "19", 
+    "Content-Type": "application/json; charset=UTF-8", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.6)", 
+    "X-Amzn-Trace-Id": "Root=1-64762279-32c5cf414fa548a83eee7df4"
+  }, 
+  "json": {
+    "myKey": "myValue"
+  }, 
+  "method": "POST", 
+  "origin": "103.155.192.89", 
+  "url": "https://httpbin.org/anything"
+}
+
+
+23:21:23.043 [main]  ERROR com.intuit.karate - httpbin.feature:7
+* Status 200
+no step-definition method match found for: Status 200
+httpbin.feature:7
+23:21:24.275 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) httpbin.feature
+23:21:50.771 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+23:21:51.540 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685463711527
+23:21:54.055 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://httpbin.org/anything
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: httpbin.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+23:21:57.277 [main]  DEBUG com.intuit.karate - response time in milliseconds: 3204
+1 < 200
+1 < Date: Tue, 30 May 2023 16:21:56 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 522
+1 < Connection: keep-alive
+1 < Server: gunicorn/19.9.0
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+{
+  "args": {}, 
+  "data": "{\"myKey\":\"myValue\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "19", 
+    "Content-Type": "application/json; charset=UTF-8", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.6)", 
+    "X-Amzn-Trace-Id": "Root=1-647622a2-0ca286810306a2fa788142e8"
+  }, 
+  "json": {
+    "myKey": "myValue"
+  }, 
+  "method": "POST", 
+  "origin": "103.155.192.89", 
+  "url": "https://httpbin.org/anything"
+}
+
+
+23:21:58.526 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) httpbin.feature
+23:22:34.142 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+23:22:34.773 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685463754764
+23:22:37.375 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+23:22:38.334 [main]  DEBUG com.intuit.karate - response time in milliseconds: 941
+1 < 201
+1 < Date: Tue, 30 May 2023 16:22:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 37
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685463789
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"25-wjiVwQrEbhLTLI6ZQNnWJLnYoUQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5Z6zEhh5cZlE5P9N0%2FqS5idcAY1HHBCDpNnU4BZfPbeEM0MmcKm7df0gI%2Fz%2B1xe1Jt9RtE%2B1DHzNrojS1MhfsO9ZXtuv8ajw%2FLchZxMm5mzCUXQ0kISx6c6UVC7dqho%2BGfc9cNCznf370KLzHug%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cf851203fc43f59-SIN
+{
+  "myKey": "myValue",
+  "id": 101
+}
+
+23:22:38.414 [main]  ERROR com.intuit.karate - httpbin.feature:7
+* status 200
+status code was: 201, expected: 200, response time in milliseconds: 941, url: https://jsonplaceholder.typicode.com/posts, response: 
+{
+  "myKey": "myValue",
+  "id": 101
+}
+httpbin.feature:7
+23:22:39.542 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) httpbin.feature
+23:23:31.902 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+23:23:32.557 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685463812544
+23:23:35.099 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://httpbin.org/anything
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: httpbin.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+23:23:39.497 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4380
+1 < 200
+1 < Date: Tue, 30 May 2023 16:23:38 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 522
+1 < Connection: keep-alive
+1 < Server: gunicorn/19.9.0
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+{
+  "args": {}, 
+  "data": "{\"myKey\":\"myValue\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "19", 
+    "Content-Type": "application/json; charset=UTF-8", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.5.14 (Java/17.0.6)", 
+    "X-Amzn-Trace-Id": "Root=1-64762307-17cdc22b1792d94d0f452844"
+  }, 
+  "json": {
+    "myKey": "myValue"
+  }, 
+  "method": "POST", 
+  "origin": "103.155.192.89", 
+  "url": "https://httpbin.org/anything"
+}
+
+
+23:23:40.736 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) httpbin.feature
+23:26:33.728 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+23:26:34.346 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: httpbin.feature - mismatched input '"' expecting <EOF>
+23:27:02.874 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+23:27:03.503 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: httpbin.feature - mismatched input '"' expecting <EOF>
+23:29:00.838 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+23:29:01.496 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685464141487
+23:29:03.989 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 275
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}
+
+23:29:05.014 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1005
+1 < 201
+1 < Date: Tue, 30 May 2023 16:29:04 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 294
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685464149
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"126-nr6eiZed2Jbg24tdXMANhAGcHlI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KLh2KOXuZUbUtKzXPfLjbCOTymrMf3ibag3QWkacl2O94RT%2F4A2RVUWNqRBcmX%2FFcqcLmOeeJsNaUYV64boUO6JISdVzGFhVqVZEhyZG55Aamgi3qs5C6pR%2BFwihOKVMXZ3qfr%2Bgc%2Fu83llDbEQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cf85a90dbf64c4d-SIN
+{
+  "userId": 1,
+  "id": 101,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+23:29:05.117 [main]  ERROR com.intuit.karate - httpbin.feature:7
+* status 200
+status code was: 201, expected: 200, response time in milliseconds: 1005, url: https://jsonplaceholder.typicode.com/posts, response: 
+{
+  "userId": 1,
+  "id": 101,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+httpbin.feature:7
+23:29:06.253 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) httpbin.feature
+10:15:05.918 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+10:15:06.853 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685502906844
+10:15:10.419 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+10:15:11.750 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1317
+1 < 201
+1 < Date: Wed, 31 May 2023 03:15:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 37
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685502913
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"25-wjiVwQrEbhLTLI6ZQNnWJLnYoUQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LrpAUAgeeHCAtE3zlh6IyjBXS2uR8mZyHb6PHS9204Rv%2FInnNlX1eejTjAiMnDhzBBFC8qSCiM8q5j3dT0EDK3ZA460aavdQUmr8U797Oxa8rOlpHRiYG0Rfld%2Bg0zX6Jvm8Gl6xzS5%2B%2BFYDVoc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cfc0d09eca34cbf-SIN
+{
+  "myKey": "myValue",
+  "id": 101
+}
+
+10:15:11.796 [main]  ERROR com.intuit.karate - httpbin.feature:7
+* status 200
+status code was: 201, expected: 200, response time in milliseconds: 1317, url: https://jsonplaceholder.typicode.com/posts, response: 
+{
+  "myKey": "myValue",
+  "id": 101
+}
+httpbin.feature:7
+10:15:13.230 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) httpbin.feature
+10:16:03.841 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+10:16:04.460 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685502964450
+10:16:04.518 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:16:07.123 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+10:16:08.033 [main]  DEBUG com.intuit.karate - response time in milliseconds: 905
+1 < 201
+1 < Date: Wed, 31 May 2023 03:16:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 37
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685502973
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"25-wjiVwQrEbhLTLI6ZQNnWJLnYoUQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lm83lAG27cI1IBO%2FBIgrx67COIlMwD%2BdYRbGxPGWj3hinK8ML2fegydjFUCbecyWXq88V6CU8q1INS%2FLlzBm245ivoaauL3e4voNYC%2FhOH3fyuikikl555ytuPsPKvMHqW8P7wQXgcw7kT1t86c%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cfc0e69de394cdd-SIN
+{
+  "myKey": "myValue",
+  "id": 101
+}
+
+10:16:08.070 [main]  ERROR com.intuit.karate - httpbin.feature:7
+* status 200
+status code was: 201, expected: 200, response time in milliseconds: 905, url: https://jsonplaceholder.typicode.com/posts, response: 
+{
+  "myKey": "myValue",
+  "id": 101
+}
+httpbin.feature:7
+10:16:09.141 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) httpbin.feature
+10:16:35.770 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+10:16:36.385 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685502996375
+10:16:39.007 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+10:16:39.958 [main]  DEBUG com.intuit.karate - response time in milliseconds: 944
+1 < 201
+1 < Date: Wed, 31 May 2023 03:16:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 37
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685503033
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"25-wjiVwQrEbhLTLI6ZQNnWJLnYoUQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5mwzGPn9jjK8HJAOvUl2oaHN65gofBX5EYVZU2VtyZQBbtucDZZTPn%2F3BUvdNHFf2T%2F6VHgw%2B1gB5afmq5yNQJoSLud4PtW4on9Eswq%2FRq0GF3ofB5KplF6VX%2BYdS%2FNh3xcbzIeK4yB45k4Ut2c%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cfc0f3149c3403e-SIN
+{
+  "myKey": "myValue",
+  "id": 101
+}
+
+10:16:41.024 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) httpbin.feature
+10:18:14.914 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+10:18:15.536 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685503095527
+10:18:15.600 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+10:18:18.227 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"myKey":"myValue"}
+
+10:18:19.151 [main]  DEBUG com.intuit.karate - response time in milliseconds: 912
+1 < 201
+1 < Date: Wed, 31 May 2023 03:18:18 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 37
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685503153
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"25-wjiVwQrEbhLTLI6ZQNnWJLnYoUQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zC%2BDTM3BENb%2FpmzI15ga9V10WKUqW4x8I49a%2B9%2BHFNfBS9JQnvkw683Tuk7pKtcRdxhvE37qxrG%2BAak4nPBjkyGGsOwJ1wQkGIST6Z8XzxqtNhHkFIRcQ0cH16iyk%2B4OC6FU%2Ff%2BQ5cAwtuKoLb0%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cfc119d3b1c3f71-SIN
+{
+  "myKey": "myValue",
+  "id": 101
+}
+
+10:18:19.199 [main]  ERROR com.intuit.karate - httpbin.feature:7
+* status 200
+status code was: 201, expected: 200, response time in milliseconds: 912, url: https://jsonplaceholder.typicode.com/posts, response: 
+{
+  "myKey": "myValue",
+  "id": 101
+}
+httpbin.feature:7
+10:18:20.301 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) httpbin.feature
+10:20:15.027 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+10:20:15.697 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685503215688
+10:20:18.144 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 19
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"userId":1,"id":1}
+
+10:20:19.078 [main]  DEBUG com.intuit.karate - response time in milliseconds: 929
+1 < 201
+1 < Date: Wed, 31 May 2023 03:20:18 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 30
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685503273
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"1e-1bYxJg0iv/Y17UJOD1Ng3ZNs1YM"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bSKZpUi19KSJNbADX8Or2Te%2FBTdNcVykVgVo5PmNflhxSQ133fIP8FOvmo1WW4NhFffpqdNG2j%2FMlQDiLzS0m8hHKoqVu%2FBtxSAOIAe6FKTHcGwo5w2U2OOZ1VvxURB%2Fb8dIRFeC2cGB1ClObXM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cfc148adf783e2f-SIN
+{
+  "userId": 1,
+  "id": 101
+}
+
+10:20:19.109 [main]  ERROR com.intuit.karate - httpbin.feature:7
+* status 200
+status code was: 201, expected: 200, response time in milliseconds: 929, url: https://jsonplaceholder.typicode.com/posts, response: 
+{
+  "userId": 1,
+  "id": 101
+}
+httpbin.feature:7
+10:20:20.151 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) httpbin.feature
+11:18:58.426 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+11:19:01.858 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 275
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}
+
+11:19:02.902 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1019
+1 < 201
+1 < Date: Wed, 31 May 2023 04:19:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 294
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1685506753
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"126-nr6eiZed2Jbg24tdXMANhAGcHlI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yKimnzmdjiM89qCNgxyvF7xiVJpCp8nuK3fbXs8yR4xBEpou8vrhWq3Rs9rNwxqFrxIOR9XEuOgHGtvjh3tfynO0PQKJABydDfHs6lFmroAgKKyDTQrzi51WmWbbEQQBK5Th83Dc%2FwGgmuwaaO4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cfc6a929c5d01c8-SIN
+{
+  "userId": 1,
+  "id": 101,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+11:19:02.994 [main]  ERROR com.intuit.karate - httpbin.feature:7
+* status 200
+status code was: 201, expected: 200, response time in milliseconds: 1019, url: https://jsonplaceholder.typicode.com/posts, response: 
+{
+  "userId": 1,
+  "id": 101,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+httpbin.feature:7
+11:19:04.150 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) httpbin.feature
